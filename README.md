@@ -13,7 +13,7 @@ Users who have an **ipPhone** are synched every 6 hours (or manually) from LDAP 
 
 ![alt text][_1]
 
-🔑 LDAP users have limited number of editable fields in CUCM and authenticate directly to LDAP.
+LDAP users have limited number of editable fields in CUCM and authenticate directly to LDAP.
 
 When end users are imported, they use **Feature Group Template** to specify their feature set.
 
@@ -76,7 +76,7 @@ Permissions below have been specified in LDAP Directory and are recommended for 
 ![alt text][_7]
 
 
-🎟 End users should also be specified as Owner on the device for licensing purposes
+End users should also be specified as Owner on the device for licensing purposes
 
 
 
