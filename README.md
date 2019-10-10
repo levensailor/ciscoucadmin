@@ -341,7 +341,7 @@ After the greeting is played, an After Greeting target should be specified to di
 ![alt text][_32]
 
 
-[_1]: https://github.com/levensailor/ciscoucadmin/blob/master/images/img1.png "Screenshot for Reference"
+[_1]: ../images/img1.png "Screenshot for Reference"
 [_2]: https://github.com/levensailor/ciscoucadmin/blob/master/images/img2.png "Screenshot for Reference"
 [_3]: https://github.com/levensailor/ciscoucadmin/blob/master/images/img3.png "Screenshot for Reference"
 [_4]: https://github.com/levensailor/ciscoucadmin/blob/master/images/img4.png "Screenshot for Reference"
