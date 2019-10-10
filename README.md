@@ -84,7 +84,7 @@ Devices are desk phones, conference phones and soft phones and can be categories
 
 - **SEP** followed by a MAC Address of the phone are desk phones
 - **CSF** followed by the username are Jabber soft phone clients
-- **TCT, BOT and TAB** are for legacy Jabber devices that are no longer needed
+- **TCT, BOT and TAB** are for iPhone, Android and iPad devices, respectively
 
 💫 Phones can be filtered on many things but the most common are:
 
