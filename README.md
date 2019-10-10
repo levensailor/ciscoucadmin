@@ -9,7 +9,7 @@
 
 Users who have an **ipPhone** are synched every 6 hours (or manually) from LDAP Directory
 
-## 👉 System \&gt; LDAP \&gt; LDAP Directory
+## 👉 System \> LDAP \> LDAP Directory
 
 ![alt text][_1]
 
@@ -17,7 +17,7 @@ Users who have an **ipPhone** are synched every 6 hours (or manually) from LDAP 
 
 When end users are imported, they use **Feature Group Template** to specify their feature set.
 
-## 👉 User Management \&gt; User/Phone Add \&gt; Feature Group Template
+## 👉 User Management \> User/Phone Add \> Feature Group Template
 
 ![alt text][_2]
 
@@ -35,7 +35,7 @@ For more information on **user roles** :
 
 End users can be managed from the End User Configuration Page:
 
-## 👉 User Management \&gt; End User
+## 👉 User Management \> End User
 
 The **Name** and **Telephone Number** here is what is listed in the **Corporate Directory** and applications such as Jabber.
 
@@ -95,7 +95,7 @@ Devices are desk phones, conference phones and soft phones and can be categories
 - Device Pool begins with &quot;UK&quot;
 - Device Name beings with &quot;CSF&quot;
 
-## 👉 Device \&gt; Phone
+## 👉 Device \> Phone
 
 ![alt text][_8]
 
@@ -156,7 +156,7 @@ Devices are desk phones, conference phones and soft phones and can be categories
 
 ## Update Phones
 
-## 👉 Bulk Administration \&gt; Phones \&gt; Update Phones \&gt; Query
+## 👉 Bulk Administration \> Phones \> Update Phones \> Query
 
  Query the phones you wish to update
 
@@ -175,7 +175,7 @@ Select Run Immediately and hit Submit
 
 ## Update Lines
 
-## 👉 Bulk Administration \&gt; Phones \&gt; Add/Update Lines \&gt; Update Lines
+## 👉 Bulk Administration \> Phones \> Add/Update Lines \> Update Lines
 
 Query the Lines (Directory Numbers) to update
 
@@ -194,7 +194,7 @@ Select Run Immediately and hit Submit
 
 ## Update Users
 
-## 👉 Bulk Administration \&gt; Users \&gt; Update Users \&gt; Query
+## 👉 Bulk Administration \> Users \> Update Users \> Query
 
 Query the Users to update
 
@@ -217,7 +217,7 @@ Phones are inserted using a **csv file** _against_ a **Phone Template**. Any val
 
 Each phone template has a corresponding phone csv file already created that can be downloaded, edited, and reuploaded to be used for new phones.
 
-## 👉 Bulk Administration \&gt; Upload/Download Files
+## 👉 Bulk Administration \> Upload/Download Files
 
 ![alt text][_18]
 
@@ -227,21 +227,21 @@ Any edits can be made in Excel and saved to a new file.
 ![alt text][_19]
 
 
-And uploaded as &quot; **Phones \&gt; Insert Phones – Specific Details**&quot;
+And uploaded as &quot; **Phones \> Insert Phones – Specific Details**&quot;
 
 ![alt text][_20]
 
 
 Now the csv file will be listed in the available File Names for _Insert Phones_
 
-## 👉 Bulk Administration \&gt; Phones \&gt; Insert Phones
+## 👉 Bulk Administration \> Phones \> Insert Phones
 
 ![alt text][_21]
 
 
 🕑 You can check on your bulk job using the **Job Scheduler**
 
-## 👉 Bulk Administration \&gt; Job Scheduler
+## 👉 Bulk Administration \> Job Scheduler
 
 ![alt text][_22]
 
@@ -267,7 +267,7 @@ Voicemail users are also synchronized from LDAP every 6 hours or manually.
 
 New users that are synchronized must be also Imported against a **Template**
 
-## 👉 Users \&gt; Import Users
+## 👉 Users \> Import Users
 
 ![alt text][_24]
 
@@ -279,13 +279,13 @@ User Templates specify:
   - Voicemail Only
   - Unified Messaging
 - **First Time Pin**
-  - Edit \&gt; Change Password \&gt; Voicemail
+  - Edit \> Change Password \> Voicemail
 
 
 
 ## Call Handlers (Call Trees)
 
-## 👉 Device \&gt; CTI Route Point
+## 👉 Device \> CTI Route Point
 
 Call Handlers should have a **CTI Route Point** in CUCM with **Call Forward All** to **Voicemail** enabled. This is required to route the call to Unity Connection.
 
@@ -295,7 +295,7 @@ Call Handlers should have a **CTI Route Point** in CUCM with **Call Forward All*
 ![alt text][_26]
 
 
-## 👉 Unity Connection \&gt; Call Management \&gt; System Call Handlers
+## 👉 Unity Connection \> Call Management \> System Call Handlers
 
 Active Schedule and Time Zone are used for 🕑 **Time of Day** routing
 
@@ -308,7 +308,7 @@ Active Schedule and Time Zone are used for 🕑 **Time of Day** routing
 
 💫 Standard is used for open hours and is enabled by default
 
-## 👉 System Call Handlers \&gt; Edit \&gt; Greetings
+## 👉 System Call Handlers \> Edit \> Greetings
 
 ![alt text][_28]
 
@@ -325,11 +325,11 @@ After the greeting is played, an After Greeting target should be specified to di
 ![alt text][_30]
 
 
-## 👉 System Call Handlers \&gt; Edit \&gt; Transfer Rules
+## 👉 System Call Handlers \> Edit \> Transfer Rules
 
 **Transfer rules** , when set to another extension, will transfer a matching call.
 
-## 👉 System Call Handlers \&gt; Edit \&gt; Caller Input
+## 👉 System Call Handlers \> Edit \> Caller Input
 
 **Caller input options** specify how a call is handled after a corresponding DTMF digit is entered by the caller. Common Options are:
 
