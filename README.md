@@ -1,7 +1,5 @@
-##
 ### Cisco Unified Communications Admin Guide
 
-###
 
 # Users
 
