@@ -121,6 +121,8 @@ Devices are desk phones, conference phones and soft phones and can be categories
 | Web Access | Controls whether the web interface is listening and is required for remote control of devices through CTI |
 | Headset Hookswitch Enabled | Required for headsets to work |
 | User Credentials Persistent for Expressway Login | If set, MRA users will not have to enter their credentials every time |
+| | |
+
 
 | Line | Configuration |
 | --- | --- |
@@ -145,7 +147,7 @@ Devices are desk phones, conference phones and soft phones and can be categories
 | Maximum Number of Calls | Total number of calls allowed across all line appearances |
 | Busy Trigger | Total number of calls allowed across all line appearances before following busy path |
 | Forwarded Call Information Display | Specifies what fields are carried when forwarding a call. Set to Caller Name and Dialed Number typically. |
-
+| | |
 
 
 # Bulk Administration
