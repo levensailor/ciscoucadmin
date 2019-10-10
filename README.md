@@ -97,8 +97,8 @@ Devices are desk phones, conference phones and soft phones and can be categories
 
 ![](images/img8.png)
 
-
-| Phone | Configuration |
+#####
+| | Phone Configuration |
 | --- | --- |
 | Description | Helpdesk – John Doe - 12003 |
 | Device Pool | Controls where the phone registers, which gateway and media resources it uses and other settings |
@@ -123,8 +123,8 @@ Devices are desk phones, conference phones and soft phones and can be categories
 | User Credentials Persistent for Expressway Login | If set, MRA users will not have to enter their credentials every time |
 | | |
 
-
-| Line | Configuration |
+#####
+|  | Line Configuration |
 | --- | --- |
 | Directory Number | Directory Number is unique per Route Partition |
 | Route Partition | Specifies patterns with the same reachability. Directory Numbers without a route partition (Null partition) are reachable from any device and should be avoided at all costs! |
