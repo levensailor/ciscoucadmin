@@ -100,9 +100,9 @@ Devices are desk phones, conference phones and soft phones and can be categories
 ![alt text][_8]
 
 
-| Phone Configuration \*required |   |
+| Phone Configuration (\*required) |   |
 | --- | --- |
-| Description | John Doe – 12003orHelpdesk – John Doe - 12003 |
+| Description | Helpdesk – John Doe - 12003 |
 | \*Device Pool | Controls where the phone registers, which gateway and media resources it uses and other settings |
 | \*Phone Button Template | Specifies the purpose for each button: line, speed dial, etc. This is particularly important when bulk importing phones as the import file headers need to match the template. |
 | Softkey Template | Specifies what functions are available and in what order when in different call states using the softkeys. |
@@ -118,15 +118,13 @@ Devices are desk phones, conference phones and soft phones and can be categories
 | \*Device Security Profile | The standard profile should be used unless the cluster uses encryption between endpoints (mixed mode) in which case the subject name in the profile must be set to the subject name of the certificate to be validated. |
 | SUBSCRIBE Calling Search Space | Specifies the lines that can be monitored via BLF call lists |
 | \*SIP Profile | Standard profile should be used in most cases |
-| Digest User | Used to authenticate 3
-# rd
- party sip phones |
+| Digest User | Used in registration of 3rd part sip devices |
 | Settings Access | Controls whether Settings shows up on the phone |
 | Web Access | Controls whether the web interface is listening and is required for remote control of devices through CTI |
 | Headset Hookswitch Enabled | Required for headsets to work |
 | User Credentials Persistent for Expressway Login | If set, MRA users will not have to enter their credentials every time |
 
-| Line Configuration \*required |   |
+| Line Configuration (\*required) |   |
 | --- | --- |
 | \*Directory Number | Directory Number is unique per Route Partition |
 | Route Partition | Specifies patterns with the same reachability. Directory Numbers without a route partition (Null partition) are reachable from any device and should be avoided at all costs! |
@@ -142,8 +140,8 @@ Devices are desk phones, conference phones and soft phones and can be categories
 | Forward Busy | When checked, sends busy calls to voicemail. When filled out and unchecked, sends all busy calls to destination specified.  |
 | Forward No Answer | When checked, sends unanswered calls to voicemail. When filled out and unchecked, sends unanswered calls to destination specified.  |
 | No Answer Ring Duration | If specifies, overrides the system default number of rings before sending to no answer destination |
-| Display / ASCII Display | Caller ID per Line AppearanceTakes precedence over Alerting Name when both exist. Used for shared lines. |
-| Line Text Label | The text shown on the phone button itself, ie:John - 11004 |
+| Display / ASCII Display | Caller ID per Line Appearance. Takes precedence over Alerting Name when both exist. Used for shared lines. |
+| Line Text Label | The text shown on the phone button itself, ie: John - 11004 |
 | External Phone Number Mask | Specifies PSTN number the phone dials out as |
 | Ring Setting | Can be set to flash only in situations where a line should be on a phone as an overflow, or for mostly outbound use, but shouldn&#39;t ring.   |
 | Maximum Number of Calls | Total number of calls allowed across all line appearances |
@@ -329,6 +327,8 @@ After the greeting is played, an After Greeting target should be specified to di
 
 **Transfer rules** , when set to another extension, will transfer a matching call.
 
+![alt text][_31]
+
 ## 👉 System Call Handlers \> Edit \> Caller Input
 
 **Caller input options** specify how a call is handled after a corresponding DTMF digit is entered by the caller. Common Options are:
@@ -338,7 +338,7 @@ After the greeting is played, an After Greeting target should be specified to di
 - **another call handler**
 - **a mailbox.**
 
-![alt text][_31]
+![alt text][_32]
 
 
 |   |   |   |
