@@ -11,7 +11,7 @@ Users who have an **ipPhone** are synched every 6 hours (or manually) from LDAP 
 
 ## 👉 System \&gt; LDAP \&gt; LDAP Directory
 
-\_1
+![alt text][_1]
 
 🔑 LDAP users have limited number of editable fields in CUCM and authenticate directly to LDAP.
 
@@ -19,7 +19,8 @@ When end users are imported, they use **Feature Group Template** to specify thei
 
 ## 👉 User Management \&gt; User/Phone Add \&gt; Feature Group Template
 
-\_2
+![alt text][_2]
+
 
 This is useful as you can manage feature sets in LDAP. You would create multiple LDAP Directories with different filters and apply relevant **Feature Group Templates** to each.
 
@@ -38,7 +39,8 @@ End users can be managed from the End User Configuration Page:
 
 The **Name** and **Telephone Number** here is what is listed in the **Corporate Directory** and applications such as Jabber.
 
-\_3
+![alt text][_3]
+
 
 **Home cluster** should be checked for all users.
 
@@ -50,7 +52,8 @@ The **Name** and **Telephone Number** here is what is listed in the **Corporate 
 
 **Line Appearance for Presence** determines which lines are monitored for Jabber and BLF Call lists.
 
-\_4
+![alt text][_4]
+
 
 **Extension Mobility** allows users to login to any phone and bring over their settings. After creating a User Profile, you would need to associate it here.
 
@@ -60,15 +63,18 @@ The **Name** and **Telephone Number** here is what is listed in the **Corporate 
 
 **Directory Number Association** becomes available once the Device is associated and specifying a number here associates the users&#39; Directory URI to the number.
 
-\_5
+![alt text][_5]
+
 
 **Mobility** should be checked to allow the user to use an RDP, aka Single Number Reach
 
-\_6
+![alt text][_6]
+
 
 Permissions below have been specified in LDAP Directory and are recommended for End Users
 
-\_7
+![alt text][_7]
+
 
 🎟 End users should also be specified as Owner on the device for licensing purposes
 
@@ -91,7 +97,8 @@ Devices are desk phones, conference phones and soft phones and can be categories
 
 ## 👉 Device \&gt; Phone
 
-\_8
+![alt text][_8]
+
 
 | Phone Configuration \*required |   |
 | --- | --- |
@@ -153,15 +160,18 @@ Devices are desk phones, conference phones and soft phones and can be categories
 
  Query the phones you wish to update
 
-\_9
+![alt text][_9]
+
 
 Make changes and mark checkbox
 
-\_10
+![alt text][_10]
+
 
 Select Run Immediately and hit Submit
 
-\_11
+![alt text][_11]
+
 
 ## Update Lines
 
@@ -169,15 +179,18 @@ Select Run Immediately and hit Submit
 
 Query the Lines (Directory Numbers) to update
 
-\_12
+![alt text][_12]
+
 
 Make necessary changes, ensuring checkbox is marked
 
-\_13
+![alt text][_13]
+
 
 Select Run Immediately and hit Submit
 
-\_14
+![alt text][_14]
+
 
 ## Update Users
 
@@ -185,15 +198,18 @@ Select Run Immediately and hit Submit
 
 Query the Users to update
 
-\_15
+![alt text][_15]
+
 
 Make necessary changes, ensuring checkbox is marked
 
-\_16
+![alt text][_16]
+
 
 Select Run Immediately and hit Submit
 
-\_17
+![alt text][_17]
+
 
 ## Insert Phones
 
@@ -203,27 +219,32 @@ Each phone template has a corresponding phone csv file already created that can 
 
 ## 👉 Bulk Administration \&gt; Upload/Download Files
 
-\_18
+![alt text][_18]
+
 
 Any edits can be made in Excel and saved to a new file.
 
-\_19
+![alt text][_19]
+
 
 And uploaded as &quot; **Phones \&gt; Insert Phones – Specific Details**&quot;
 
-\_20
+![alt text][_20]
+
 
 Now the csv file will be listed in the available File Names for _Insert Phones_
 
 ## 👉 Bulk Administration \&gt; Phones \&gt; Insert Phones
 
-\_21
+![alt text][_21]
+
 
 🕑 You can check on your bulk job using the **Job Scheduler**
 
 ## 👉 Bulk Administration \&gt; Job Scheduler
 
-\_22
+![alt text][_22]
+
 
 Clicking on the **Job ID** will show details. Any failures will be listed on the Log File.
 
@@ -233,7 +254,8 @@ Common failures are:
 - Extraneous characters (check number formatting)
 - Unique value constraints (entity already exists in system)
 
-\_23
+![alt text][_23]
+
 
 
 
@@ -247,7 +269,8 @@ New users that are synchronized must be also Imported against a **Template**
 
 ## 👉 Users \&gt; Import Users
 
-\_24
+![alt text][_24]
+
 
 User Templates specify:
 
@@ -266,9 +289,11 @@ User Templates specify:
 
 Call Handlers should have a **CTI Route Point** in CUCM with **Call Forward All** to **Voicemail** enabled. This is required to route the call to Unity Connection.
 
-\_25
+![alt text][_25]
 
-\_26
+
+![alt text][_26]
+
 
 ## 👉 Unity Connection \&gt; Call Management \&gt; System Call Handlers
 
@@ -276,7 +301,8 @@ Active Schedule and Time Zone are used for 🕑 **Time of Day** routing
 
 💫 Extension should match the directory number on the **CTI Route Point**
 
-\_27
+![alt text][_27]
+
 
 **Greetings** can be unique depending on caller, schedule, and alternate routing
 
@@ -284,17 +310,20 @@ Active Schedule and Time Zone are used for 🕑 **Time of Day** routing
 
 ## 👉 System Call Handlers \&gt; Edit \&gt; Greetings
 
-\_28
+![alt text][_28]
+
 
 Call handlers that provide Time of Day routing-only should have **Nothing** checked,
 
 otherwise **My Personal Greeting** specifies the recording that is uploaded below
 
-\_29
+![alt text][_29]
+
 
 After the greeting is played, an After Greeting target should be specified to direct the call after the timeout. This is typically a **shared mailbox** or **another call handler.**
 
-\_30
+![alt text][_30]
+
 
 ## 👉 System Call Handlers \&gt; Edit \&gt; Transfer Rules
 
@@ -309,10 +338,46 @@ After the greeting is played, an After Greeting target should be specified to di
 - **another call handler**
 - **a mailbox.**
 
- \_31
+![alt text][_31]
+
 
 |   |   |   |
 | --- | --- | --- |
 
 |   |   |   |
 | --- | --- | --- |
+
+[_1]: https://github.com/levensailor/ciscoucadmin/images/img1.png "Screenshot for Reference"
+[_2]: https://github.com/levensailor/ciscoucadmin/images/img2.png "Screenshot for Reference"
+[_3]: https://github.com/levensailor/ciscoucadmin/images/img3.png "Screenshot for Reference"
+[_4]: https://github.com/levensailor/ciscoucadmin/images/img4.png "Screenshot for Reference"
+[_5]: https://github.com/levensailor/ciscoucadmin/images/img5.png "Screenshot for Reference"
+[_6]: https://github.com/levensailor/ciscoucadmin/images/img6.png "Screenshot for Reference"
+[_7]: https://github.com/levensailor/ciscoucadmin/images/img7.png "Screenshot for Reference"
+[_8]: https://github.com/levensailor/ciscoucadmin/images/img8.png "Screenshot for Reference"
+[_9]: https://github.com/levensailor/ciscoucadmin/images/img9.png "Screenshot for Reference"
+[_10]: https://github.com/levensailor/ciscoucadmin/images/img10.png "Screenshot for Reference"
+[_11]: https://github.com/levensailor/ciscoucadmin/images/img11.png "Screenshot for Reference"
+[_12]: https://github.com/levensailor/ciscoucadmin/images/img12.png "Screenshot for Reference"
+[_13]: https://github.com/levensailor/ciscoucadmin/images/img13.png "Screenshot for Reference"
+[_14]: https://github.com/levensailor/ciscoucadmin/images/img14.png "Screenshot for Reference"
+[_15]: https://github.com/levensailor/ciscoucadmin/images/img15.png "Screenshot for Reference"
+[_16]: https://github.com/levensailor/ciscoucadmin/images/img16.png "Screenshot for Reference"
+[_17]: https://github.com/levensailor/ciscoucadmin/images/img17.png "Screenshot for Reference"
+[_18]: https://github.com/levensailor/ciscoucadmin/images/img18.png "Screenshot for Reference"
+[_19]: https://github.com/levensailor/ciscoucadmin/images/img19.png "Screenshot for Reference"
+[_20]: https://github.com/levensailor/ciscoucadmin/images/img20.png "Screenshot for Reference"
+[_21]: https://github.com/levensailor/ciscoucadmin/images/img21.png "Screenshot for Reference"
+[_22]: https://github.com/levensailor/ciscoucadmin/images/img22.png "Screenshot for Reference"
+[_23]: https://github.com/levensailor/ciscoucadmin/images/img23.png "Screenshot for Reference"
+[_24]: https://github.com/levensailor/ciscoucadmin/images/img24.png "Screenshot for Reference"
+[_25]: https://github.com/levensailor/ciscoucadmin/images/img25.png "Screenshot for Reference"
+[_26]: https://github.com/levensailor/ciscoucadmin/images/img26.png "Screenshot for Reference"
+[_27]: https://github.com/levensailor/ciscoucadmin/images/img27.png "Screenshot for Reference"
+[_28]: https://github.com/levensailor/ciscoucadmin/images/img28.png "Screenshot for Reference"
+[_29]: https://github.com/levensailor/ciscoucadmin/images/img29.png "Screenshot for Reference"
+[_30]: https://github.com/levensailor/ciscoucadmin/images/img30.png "Screenshot for Reference"
+[_31]: https://github.com/levensailor/ciscoucadmin/images/img31.png "Screenshot for Reference"
+[_32]: https://github.com/levensailor/ciscoucadmin/images/img32.png "Screenshot for Reference"
+[_33]: https://github.com/levensailor/ciscoucadmin/images/img33.png "Screenshot for Reference"
+[_34]: https://github.com/levensailor/ciscoucadmin/images/img34.png "Screenshot for Reference"
