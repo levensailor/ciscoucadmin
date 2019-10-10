@@ -116,7 +116,7 @@ Devices are desk phones, conference phones and soft phones and can be categories
 | Device Security Profile | The standard profile should be used unless the cluster uses encryption between endpoints (mixed mode) in which case the subject name in the profile must be set to the subject name of the certificate to be validated. |
 | SUBSCRIBE Calling Search Space | Specifies the lines that can be monitored via BLF call lists |
 | SIP Profile | Standard profile should be used in most cases |
-| Digest User | Used in registration of 3rd part sip devices |
+| Digest User | Used in registration of 3rd party sip devices |
 | Settings Access | Controls whether Settings shows up on the phone |
 | Web Access | Controls whether the web interface is listening and is required for remote control of devices through CTI |
 | Headset Hookswitch Enabled | Required for headsets to work |
