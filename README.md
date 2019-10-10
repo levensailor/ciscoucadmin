@@ -88,10 +88,10 @@ Devices are desk phones, conference phones and soft phones and can be categories
 
 💫 Phones can be filtered on many things but the most common are:
 
-- Description Contains &quot;UK Phone 31001&quot;
+- Description contains &quot;UK Phone 31001&quot;
 - Directory Number begins with &quot;3&quot; or contains &quot;31001&quot;
 - Device Pool begins with &quot;UK&quot;
-- Device Name beings with &quot;CSF&quot;
+- Device Name begins with &quot;CSF&quot;
 
 #### 👉 Device \> Phone
 
