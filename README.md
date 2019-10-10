@@ -100,6 +100,7 @@ Devices are desk phones, conference phones and soft phones and can be categories
 ![alt text][_8]
 
 #### Phone Configuration (\*required)
+|   |   |
 | --- | --- |
 | Description | Helpdesk – John Doe - 12003 |
 | \*Device Pool | Controls where the phone registers, which gateway and media resources it uses and other settings |
