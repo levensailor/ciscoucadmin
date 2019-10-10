@@ -11,7 +11,7 @@ Users who have an **ipPhone** are synched every 6 hours (or manually) from LDAP 
 
 #### 👉 System \> LDAP \> LDAP Directory
 
-![alt text][_1]
+![](images/img1.png)
 
 LDAP users have limited number of editable fields in CUCM and authenticate directly to LDAP.
 
