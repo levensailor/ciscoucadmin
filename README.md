@@ -9,7 +9,7 @@
 
 Users who have an **ipPhone** are synched every 6 hours (or manually) from LDAP Directory
 
-## 👉 System \> LDAP \> LDAP Directory
+#### 👉 System \> LDAP \> LDAP Directory
 
 ![alt text][_1]
 
@@ -17,7 +17,7 @@ Users who have an **ipPhone** are synched every 6 hours (or manually) from LDAP 
 
 When end users are imported, they use **Feature Group Template** to specify their feature set.
 
-## 👉 User Management \> User/Phone Add \> Feature Group Template
+#### 👉 User Management \> User/Phone Add \> Feature Group Template
 
 ![alt text][_2]
 
@@ -35,7 +35,7 @@ For more information on **user roles** :
 
 End users can be managed from the End User Configuration Page:
 
-## 👉 User Management \> End User
+#### 👉 User Management \> End User
 
 The **Name** and **Telephone Number** here is what is listed in the **Corporate Directory** and applications such as Jabber.
 
@@ -95,7 +95,7 @@ Devices are desk phones, conference phones and soft phones and can be categories
 - Device Pool begins with &quot;UK&quot;
 - Device Name beings with &quot;CSF&quot;
 
-## 👉 Device \> Phone
+#### 👉 Device \> Phone
 
 ![alt text][_8]
 
@@ -141,7 +141,7 @@ Devices are desk phones, conference phones and soft phones and can be categories
 | Forward No Answer | When checked, sends unanswered calls to voicemail. When filled out and unchecked, sends unanswered calls to destination specified.  |
 | No Answer Ring Duration | If specifies, overrides the system default number of rings before sending to no answer destination |
 | Display / ASCII Display | Caller ID per Line Appearance. Takes precedence over Alerting Name when both exist. Used for shared lines. |
-| Line Text Label | The text shown on the phone button itself, ie: John - 11004 |
+| Line Text Label | The text shown on the phone button itself, ie:John - 11004 |
 | External Phone Number Mask | Specifies PSTN number the phone dials out as |
 | Ring Setting | Can be set to flash only in situations where a line should be on a phone as an overflow, or for mostly outbound use, but shouldn&#39;t ring.   |
 | Maximum Number of Calls | Total number of calls allowed across all line appearances |
@@ -154,7 +154,7 @@ Devices are desk phones, conference phones and soft phones and can be categories
 
 ## Update Phones
 
-## 👉 Bulk Administration \> Phones \> Update Phones \> Query
+#### 👉 Bulk Administration \> Phones \> Update Phones \> Query
 
  Query the phones you wish to update
 
@@ -173,7 +173,7 @@ Select Run Immediately and hit Submit
 
 ## Update Lines
 
-## 👉 Bulk Administration \> Phones \> Add/Update Lines \> Update Lines
+#### 👉 Bulk Administration \> Phones \> Add/Update Lines \> Update Lines
 
 Query the Lines (Directory Numbers) to update
 
@@ -192,7 +192,7 @@ Select Run Immediately and hit Submit
 
 ## Update Users
 
-## 👉 Bulk Administration \> Users \> Update Users \> Query
+#### 👉 Bulk Administration \> Users \> Update Users \> Query
 
 Query the Users to update
 
@@ -215,7 +215,7 @@ Phones are inserted using a **csv file** _against_ a **Phone Template**. Any val
 
 Each phone template has a corresponding phone csv file already created that can be downloaded, edited, and reuploaded to be used for new phones.
 
-## 👉 Bulk Administration \> Upload/Download Files
+#### 👉 Bulk Administration \> Upload/Download Files
 
 ![alt text][_18]
 
@@ -232,14 +232,14 @@ And uploaded as &quot; **Phones \> Insert Phones – Specific Details**&quot;
 
 Now the csv file will be listed in the available File Names for _Insert Phones_
 
-## 👉 Bulk Administration \> Phones \> Insert Phones
+#### 👉 Bulk Administration \> Phones \> Insert Phones
 
 ![alt text][_21]
 
 
 🕑 You can check on your bulk job using the **Job Scheduler**
 
-## 👉 Bulk Administration \> Job Scheduler
+#### 👉 Bulk Administration \> Job Scheduler
 
 ![alt text][_22]
 
@@ -265,7 +265,7 @@ Voicemail users are also synchronized from LDAP every 6 hours or manually.
 
 New users that are synchronized must be also Imported against a **Template**
 
-## 👉 Users \> Import Users
+#### 👉 Users \> Import Users
 
 ![alt text][_24]
 
@@ -283,7 +283,7 @@ User Templates specify:
 
 ## Call Handlers (Call Trees)
 
-## 👉 Device \> CTI Route Point
+#### 👉 Device \> CTI Route Point
 
 Call Handlers should have a **CTI Route Point** in CUCM with **Call Forward All** to **Voicemail** enabled. This is required to route the call to Unity Connection.
 
@@ -293,7 +293,7 @@ Call Handlers should have a **CTI Route Point** in CUCM with **Call Forward All*
 ![alt text][_26]
 
 
-## 👉 Unity Connection \> Call Management \> System Call Handlers
+#### 👉 Unity Connection \> Call Management \> System Call Handlers
 
 Active Schedule and Time Zone are used for 🕑 **Time of Day** routing
 
@@ -306,7 +306,7 @@ Active Schedule and Time Zone are used for 🕑 **Time of Day** routing
 
 💫 Standard is used for open hours and is enabled by default
 
-## 👉 System Call Handlers \> Edit \> Greetings
+#### 👉 System Call Handlers \> Edit \> Greetings
 
 ![alt text][_28]
 
@@ -323,13 +323,13 @@ After the greeting is played, an After Greeting target should be specified to di
 ![alt text][_30]
 
 
-## 👉 System Call Handlers \> Edit \> Transfer Rules
+#### 👉 System Call Handlers \> Edit \> Transfer Rules
 
 **Transfer rules** , when set to another extension, will transfer a matching call.
 
 ![alt text][_31]
 
-## 👉 System Call Handlers \> Edit \> Caller Input
+#### 👉 System Call Handlers \> Edit \> Caller Input
 
 **Caller input options** specify how a call is handled after a corresponding DTMF digit is entered by the caller. Common Options are:
 
