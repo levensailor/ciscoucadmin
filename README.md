@@ -76,7 +76,7 @@ Permissions below have been specified in LDAP Directory and are recommended for 
 ![alt text][_7]
 
 
-End users should also be specified as Owner on the device for licensing purposes
+🎟 End users should also be specified as Owner on the device for licensing purposes
 
 
 
@@ -99,34 +99,34 @@ Devices are desk phones, conference phones and soft phones and can be categories
 
 ![alt text][_8]
 
-#### Phone Configuration (\*required)
-|   |   |
+
+| Phone Configuration |   |
 | --- | --- |
 | Description | Helpdesk – John Doe - 12003 |
-| \*Device Pool | Controls where the phone registers, which gateway and media resources it uses and other settings |
-| \*Phone Button Template | Specifies the purpose for each button: line, speed dial, etc. This is particularly important when bulk importing phones as the import file headers need to match the template. |
+| Device Pool | Controls where the phone registers, which gateway and media resources it uses and other settings |
+| Phone Button Template | Specifies the purpose for each button: line, speed dial, etc. This is particularly important when bulk importing phones as the import file headers need to match the template. |
 | Softkey Template | Specifies what functions are available and in what order when in different call states using the softkeys. |
 | Calling Search Space | Specifies the calling rights of a phone. When calling search spaces are applied to both Device and Line, the two are combined with Line taking precedence.  A common practice is to allow all patterns at the device level and restrict patterns at the line level, such as international |
 | Media Resource Group List | Recommended to leave at None and specify on the Device Pool |
 | User MOH Audio Source | Music when a call is placed on hold |
 | Network Hold MOH Audio Source | Music when a call is being transferred or held indirectly when adding a conference participant |
-| \*Location | Used when call admission control is enabled. |
+| Location | Used when call admission control is enabled. |
 | Network Locale | Describes the ring back tone heard. Should be set to what the caller is used to hearing for their country. |
-| \*Owner User ID | Used for licensing purposes. CUWL licensing allows users to have multiple phones. Phones without an owner do not provide the best use of licensing |
+| Owner User ID | Used for licensing purposes. CUWL licensing allows users to have multiple phones. Phones without an owner do not provide the best use of licensing |
 | Mobility User ID | Used for Single Number reach |
 | Remote Number | Can be used to control what number is displayed on the phone when outbound called party transformations may alter the display. |
-| \*Device Security Profile | The standard profile should be used unless the cluster uses encryption between endpoints (mixed mode) in which case the subject name in the profile must be set to the subject name of the certificate to be validated. |
+| Device Security Profile | The standard profile should be used unless the cluster uses encryption between endpoints (mixed mode) in which case the subject name in the profile must be set to the subject name of the certificate to be validated. |
 | SUBSCRIBE Calling Search Space | Specifies the lines that can be monitored via BLF call lists |
-| \*SIP Profile | Standard profile should be used in most cases |
+| SIP Profile | Standard profile should be used in most cases |
 | Digest User | Used in registration of 3rd part sip devices |
 | Settings Access | Controls whether Settings shows up on the phone |
 | Web Access | Controls whether the web interface is listening and is required for remote control of devices through CTI |
 | Headset Hookswitch Enabled | Required for headsets to work |
 | User Credentials Persistent for Expressway Login | If set, MRA users will not have to enter their credentials every time |
 
-| Line Configuration (\*required) |   |
+| Line Configuration |   |
 | --- | --- |
-| \*Directory Number | Directory Number is unique per Route Partition |
+| Directory Number | Directory Number is unique per Route Partition |
 | Route Partition | Specifies patterns with the same reachability. Directory Numbers without a route partition (Null partition) are reachable from any device and should be avoided at all costs! |
 | Description | John Doe - 12001 |
 | Alerting Name / ASCII Alerting Name | Caller ID per Line |
