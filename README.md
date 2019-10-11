@@ -22,6 +22,15 @@ When end users are imported, they use **Feature Group Template** to specify thei
 
 This is useful as you can manage feature sets in LDAP. You would create multiple LDAP Directories with different filters and apply relevant **Feature Group Templates** to each.
 
+Services Profile specifies which **UC Services** to assign the user, such as:
+- IM and Presence
+- CTI (Computer Telephony Integration) 
+- Voicemail
+- Mailstore
+- Video Conference
+
+💫**UC Services** contain service type, host name or IP address, and port
+
 When users are imported, they can have **Access Control Groups** assigned.
 
 - Standard CCM End Users – Grants an end user log-in rights to the Cisco Unified CM User Options page
