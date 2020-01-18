@@ -263,8 +263,27 @@ Common failures are:
 
 ![](images/img23.png)
 
+# CLI Frequently used commands
 
+|  |  |
+| --- | --- |
+| show status | hostname, version, uptime |
+| show version active | cucm version in active partition |
+| show version inactive | cucm version in inactive partition |
 
+| show network cluster | cluster hostnames and ip addresses |
+| show cert trust | list certificate trusts |
+| set cert delete <name> | delete certificate trust |
+| set network <hostname/domain/dns> | reconfigure network settings |
+| set network ip eth0 | change ip address |
+| set web-security ou org loc state country | change cert request details |
+| utils dbreplication runtimestate | check database replication (should be all 2) |
+| utils service list/start/stop/restart <service> | manage services |
+| utils ntp status/config/server/start/restart | manage network time |
+| utils system restart/shutdown | manage power gracefully |
+| utils system switch-version | switches between active and inactive partitions |
+| utils reset_application_ui_administrator_name | resets ucm admin account name |
+| utils reset_application_ui_administrator_password | resets ucm admin account password |
 
 # Voicemail
 
