@@ -270,7 +270,6 @@ Common failures are:
 | show status | hostname, version, uptime |
 | show version active | cucm version in active partition |
 | show version inactive | cucm version in inactive partition |
-
 | show network cluster | cluster hostnames and ip addresses |
 | show cert trust | list certificate trusts |
 | set cert delete <name> | delete certificate trust |
